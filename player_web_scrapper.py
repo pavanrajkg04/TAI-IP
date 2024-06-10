@@ -86,6 +86,7 @@ for bat in wickets:
 #    print(o_n.text)
 for index, ball in enumerate(balls_faced):
     print(index, ball.text)
+    
 
 
 
