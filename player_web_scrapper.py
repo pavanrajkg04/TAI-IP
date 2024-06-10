@@ -64,8 +64,6 @@ df['match_link'] = df['match_link'].str[:-1]
 df['match_link']  = df['match_link']+df['matcchId']
 df.drop(columns=['matchLink'])
 
-#getting individual match status
-
 scorecard = "https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2022-23-1298134/ireland-vs-zimbabwe-4th-match-first-round-group-b-1298138/full-scorecard"
 
 response = requests.get(scorecard, headers=headers)
