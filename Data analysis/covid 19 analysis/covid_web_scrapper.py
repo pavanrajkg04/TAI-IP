@@ -14,4 +14,4 @@ url = "https://www.worldometers.info/coronavirus/"
 
 web_page = requests.get(url)
 soup = bs(web_page.text, "html.parser")
-pret = soup.prettify()
+prettify_page = soup.prettify()
